@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+body {
+  background: linear-gradient(
+    100deg,
+    rgb(241, 187, 136) 0%,
+    rgb(175, 181, 228) 100%
+  );
+}
+.App {
+  text-align: center; 
+} 
+
+label {
+  font-size:15px;
+  font-style: oblique;
+}
+input {
+  width: 300px;
+  height: 25px;
+  background-color: rgb(227, 230, 233) ;
+  border: 2px solid black;
+}
+textarea {
+  width: 300px;
+  height: 75px;
+  background-color: rgb(234, 235, 238) ;
+  border: 2px solid black;
+}
+button{
+  background-color:blue;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: coral;
+}
+.navbar{
+  position: fixed !important;
+  top:0;
+  max-width: 120px !important;
+}
+.navbar {
+  color:black;
+  font-size: 20px;
+  padding-left: 20px;
+  display: inline;
+  background: linear-gradient(
+    100deg,
+    rgb(241, 187, 136) 0%,
+    rgb(175, 181, 228) 100%
+  );
+  width: 100%;
+}
+.link {
+  cursor: pointer;
+  padding-right: 10px;
+}
